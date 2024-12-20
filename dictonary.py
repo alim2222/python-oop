@@ -1,0 +1,31 @@
+ad={"name":"alim", "id":32}
+print(ad.keys())
+print(ad.values())
+print(ad.items())
+ad.update({"city":"comilla"})
+print(ad)
+ad.pop("id")
+print(ad)
+print(ad.popitem())
+print(ad)
+prof=ad.setdefault("profesion", "Student")
+keys={"a","b","c"}
+defu=dict.fromkeys(keys,2)
+print(defu)
+print(ad)
+print(ad.get("name"))
+print(ad.items())
+a={1,2,2,3,4,5}
+a.add(6)
+print(a)
+a.remove(4)
+a.discard(7)
+print(a)
+set1={1,2,3}
+set2={3,4,5}
+print(set1|set2)
+print(set1&set2)
+print(set1-set2)
+print(set1^set2)
+sor=set(a)
+print(sor)
